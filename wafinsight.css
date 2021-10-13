@@ -1,0 +1,590 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+}
+
+ header {
+	margin: 0px;
+	padding: 0px;
+	background-color: #DCEBFF;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.nav_links {
+	list-style: none;
+	margin-right: 162px;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 18px 20px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color:  #CB484A
+}
+
+.logohome {
+	margin-left: 162px;
+}
+
+li, a {
+	font-family: "Proxima Nova";
+	font-weight: 600;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10;
+}
+
+#sixbooks {
+    position: absolute;
+	top: 1240px;
+    left: 239px;
+    float: none;
+}
+
+#threebuttons {
+	position: absolute;
+	top: 3000px;
+	left: 700px;
+	padding: 5px;
+	
+}
+
+
+.threebepad {
+	padding: 15px;
+}
+
+#ben1element {
+	position: absolute;
+	top: 231px;
+	left: 483px;
+	z-index: 2
+}
+
+#ben2element {
+	position: absolute;
+	top: 231px;
+	left: 483px;
+	z-index: 2
+}
+
+#ben3element {
+	position: absolute;
+	top: 231px;
+	left: 483px;
+	z-index: 2
+}
+
+.bookbuttonleft {
+	position: absolute;
+	top: 625px;
+	left: 520px;
+	
+}
+
+.bookbuttonright {
+	position: absolute;
+	top: 625px;
+	left: 1066px;
+	
+}
+
+#ben1g1 {
+	z-index: 1000;
+	position: absolute;
+	top: 564px;
+
+	
+}
+
+
+#ben1g2 {
+	z-index: 1000;
+	position: absolute;
+	top: 1038px;
+
+}
+
+#ben1g3 {
+	z-index: 1000;
+	position: absolute;
+	top: 1540px;
+
+}
+
+#ben1g4 {
+	z-index: 1000;
+	position: absolute;
+	top: 2042px;
+
+}
+
+
+#ben2g1 {
+	z-index: 1000;
+	position: absolute;
+	top: 565px;
+	
+}
+
+
+#ben2g2 {
+	z-index: 1000;
+	position: absolute;
+	top: 1109px;
+	
+}
+
+#ben2g3 {
+	z-index: 1000;
+	position: absolute;
+	top: 1579px;
+	
+}
+
+#ben2g4 {
+	z-index: 1000;
+	position: absolute;
+	top: 2090px;
+		
+}
+
+#ben3g1 {
+	z-index: 1000;
+	position: absolute;
+	top: 574px;
+
+	
+}
+
+
+#ben3g2 {
+	z-index: 1000;
+	position: absolute;
+	top: 1053px;
+	
+}
+
+#ben3g3 {
+	z-index: 1000;
+	position: absolute;
+	top: 1659px;
+
+}
+
+header {
+    -webkit-box-shadow: 0px 0 16px #000000;
+    box-shadow: 0px 0 16px #000000;
+}
+
+.sub-menu-productivity{
+	display: none;
+	
+}
+
+.nav_links li:hover .sub-menu-productivity {
+	display: block;
+	position: absolute;
+	background: #FFFFFF;
+	margin-top: 15px;
+	margin-left: -15px;
+	border-radius: 8px;
+}
+
+.nav_links li:hover .sub-menu-productivity ul {
+	width: 190px;
+	padding: 5px;
+	border-bottom: 1px dotted #80808;
+	background: transparent;
+	border-radius: 0;
+	text-allign: left;
+}
+
+.nav_links li:hover .sub-menu-productivity li{
+	display: block;
+	margin: 10px;
+}
+
+.sub-menu-leadership{
+	display: none;
+	
+}
+
+.nav_links li:hover .sub-menu-leadership {
+	display: block;
+	position: absolute;
+	background: #FFFFFF;
+	margin-top: 15px;
+	margin-left: -15px;
+	border-radius: 8px;
+}
+
+.nav_links li:hover .sub-menu-leadership ul {
+	width: 190px;
+	padding: 5px;
+	border-bottom: 1px dotted #80808;
+	background: transparent;
+	border-radius: 0;
+	text-allign: left;
+}
+
+.nav_links li:hover .sub-menu-leadership li{
+	display: block;
+	margin: 10px;
+}
+
+.sub-menu-psychology{
+	display: none;
+	
+}
+
+.nav_links li:hover .sub-menu-psychology {
+	display: block;
+	position: absolute;
+	background: #FFFFFF;
+	margin-top: 15px;
+	margin-left: -15px;
+	border-radius: 8px;
+}
+
+.nav_links li:hover .sub-menu-psychology ul {
+	width: 190px;
+	padding: 5px;
+	border-bottom: 1px dotted #80808;
+	background: transparent;
+	border-radius: 0;
+	text-allign: left;
+}
+
+.nav_links li:hover .sub-menu-psychology li{
+	display: block;
+	margin: 10px;
+}
+
+.sub-menu-readingbenefit{
+	display: none;
+	
+}
+
+.nav_links li:hover .sub-menu-readingbenefit {
+	display: block;
+	position: absolute;
+	background: #FFFFFF;
+	margin-top: 15px;
+	margin-left: -15px;
+	border-radius: 8px;
+}
+
+.nav_links li:hover .sub-menu-readingbenefit ul {
+	width: 190px;
+	padding: 5px;
+	border-bottom: 1px dotted #80808;
+	background: transparent;
+	border-radius: 0;
+	text-allign: left;
+}
+
+.nav_links li:hover .sub-menu-readingbenefit li{
+	display: block;
+	margin: 10px;
+}
+
+.slideshow-container {
+    position: absolute;
+	top: 300px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.mySlides {
+  display: none;
+  position: relative;
+  top: 140px;
+  width: 100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  color: white;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 38px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  outline-color: #FFFFFF;
+}
+
+.prev {
+	position: absolute;
+	left: -52px;
+	bottom: 140px;
+}
+
+
+.next {
+	position: absolute;
+	bottom: 140.5px;
+	left: 880px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+#shiftintro {
+	position: relative;
+	top: 103px;
+	left: 390px;
+	z-index: 9000;
+	background-size: contain;
+
+}
+
+.slideshow-container2 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides2 {
+  display: none;
+  position: relative;
+  left: 80px;
+  top: 140px;
+}
+
+.prev2, .next2 {
+  cursor: pointer;
+  color: white;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 38px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  outline-color: #FFFFFF;
+}
+
+.prev2 {
+	position: absolute;
+	left: 28px;
+	bottom: 140px;
+}
+
+
+.next2 {
+	position: absolute;
+	bottom: 140.5px;
+	left: 960px;
+}
+
+.prev2:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev2:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.firstlay {
+	width: 100%;
+	height: auto;
+}
+
+.secondlay {
+	width: 100%;
+	height: auto;
+}
+
+#gifplace {
+	position: relative;
+	bottom: 320px;
+	height: auto
+}
+
+.fesrowbuk {
+	width: 100%;
+	height: auto;
+}
+
+.sekrowbuk {
+	width: 100%;
+	height: auto;
+}
+
+#book1 {
+	width: 25%;
+}
+
+#book2 {
+	width: 25%;
+}
+
+#book3 {
+	width: 25%;
+}
+
+#book4 {
+	width: 25%;
+}
+
+#book5 {
+	width: 25%;
+}
+
+#book6 {
+	width: 25%;
+}
+
+#keblok1 {
+	width: 13%;
+}
+
+#keblok2 {
+	width: 13%;
+}
+
+#keblok3 {
+	width: 13%;
+}
+
+
+
+.centreben {
+    position: absolute;
+	top: 1367px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.centreben2 {
+    position: absolute;
+	top: 1317px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.centreben3 {
+    position: absolute;
+	top: 1207px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.centregif {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	z-index: 5
+}
+
+.bothbutt {
+    position: absolute;
+	top: 800px;
+    left: 56%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	z-index: 1000;
+	width: 50%;
+	min-width: 30%;
+	height: auto;
+}
+
+#bb1l {
+	width: 38%;
+	height: auto;
+}
+
+#bb1r {
+	width: 38%;
+	height: auto;
+}
+
+#bb2l {
+	width: 38%;
+	height: auto;
+}
+
+#bb2r {
+	width: 38%;
+	height: auto;
+}
+
+#bb3l {
+	width: 38%;
+	height: auto;
+}
+
+#bb3r {
+	width: 38%;
+	height: auto;
+}
+
+#bb4l {
+	width: 38%;
+	height: auto;
+}
+
+#bb4r {
+	width: 38%;
+	height: auto;
+}
+
+#bb5l {
+	width: 38%;
+	height: auto;
+}
+
+#bb5r {
+	width: 38%;
+	height: auto;
+}
+
+#bb6l {
+	width: 38%;
+	height: auto;
+}
+
+#bb6r {
+	width: 38%;
+	height: auto;
+}

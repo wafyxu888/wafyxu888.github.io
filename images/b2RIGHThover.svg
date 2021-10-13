@@ -1,0 +1,13 @@
+<svg id="Component_17_1" data-name="Component 17 – 1" xmlns="http://www.w3.org/2000/svg" width="334" height="128" viewBox="0 0 334 128">
+  <g id="Rectangle_81" data-name="Rectangle 81" transform="translate(334 128) rotate(180)" fill="#4b4b4b" stroke="#fff" stroke-width="1">
+    <rect width="334" height="128" rx="34" stroke="none"/>
+    <rect x="0.5" y="0.5" width="333" height="127" rx="33.5" fill="none"/>
+  </g>
+  <g id="Group_12" data-name="Group 12" transform="translate(186 656) rotate(-90)">
+    <rect id="Rectangle_64" data-name="Rectangle 64" width="54" height="54" transform="translate(565 80)" fill="#fff" opacity="0"/>
+    <path id="Union_11" data-name="Union 11" d="M1.557,30.381-.231,28.593a1,1,0,0,1,0-1.414l12.1-12.1-12.1-12.1a1,1,0,0,1,0-1.414L1.557-.23a1,1,0,0,1,1.414,0L15.782,12.58l1.788,1.788a1,1,0,0,1,0,1.414l-1.788,1.789-.024.023L2.971,30.381a1,1,0,0,1-1.414,0Z" transform="translate(607.64 98.505) rotate(90)" fill="#fff"/>
+  </g>
+  <text id="read_Start_with_Why_insight" data-name="read
+Start with Why
+insight" transform="translate(167 45)" fill="#fff" font-size="19" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="-19.394" y="0">read</tspan><tspan x="-63.1" y="26">Start with Why</tspan><tspan x="-29.103" y="52">insight</tspan></text>
+</svg>
